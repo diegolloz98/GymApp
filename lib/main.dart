@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gymapp/user_page/Login.dart';
 import 'package:gymapp/user_page/homePage.dart';
 void main() => runApp(const MyApp());
 class MyApp extends StatelessWidget {
@@ -6,6 +7,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return HomePage();
+    return MaterialApp(
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
+      home: Login(),
+    );
   }
 }
