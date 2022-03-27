@@ -20,12 +20,12 @@ class Browser extends StatelessWidget {
     Icons.flatware,
   ];
   final pastelColors = [
-    Color.fromARGB(255, 82, 214, 138),
-    Color.fromARGB(255, 0, 190, 156),
-    Color.fromARGB(255, 241, 197, 14),
-    Color.fromARGB(255, 222, 179, 25),
-    Color.fromARGB(255, 193, 57, 45),
-    Color.fromARGB(255, 155, 39, 27)
+    Colors.deepPurple[100],
+    Colors.deepPurple[400],
+    Colors.deepPurple[200],
+    Colors.deepPurple[500],
+    Colors.deepPurple[300],
+    Colors.deepPurple,
   ];
 
   @override
