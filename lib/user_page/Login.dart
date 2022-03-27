@@ -86,7 +86,7 @@ class _LoginState extends State<Login> {
                     borderSide: BorderSide(color: Colors.grey),
                   ),
                   icon: Icon(
-                    Icons.key,
+                    Icons.password,
                   ),
                 ),
               ),
