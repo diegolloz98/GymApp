@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gymapp/user_page/login.dart';
-import 'package:gymapp/user_page/browse.dart';
+import 'package:gymapp/browse.dart';
 import 'package:gymapp/user_page/homePage.dart';
 import 'package:gymapp/user_page/signIn.dart';
 import 'package:gymapp/user_page/routines.dart';
@@ -13,6 +13,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        theme: ThemeData(primarySwatch: Colors.deepPurple), home: Login());
+        theme: ThemeData(primarySwatch: Colors.deepPurple), home: Browser());
   }
 }
